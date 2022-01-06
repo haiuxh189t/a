@@ -1,7 +1,7 @@
 options:
   max-time: 120
   size: 2x
-image: python:3.8
+image: ubuntu:18.04
 pipelines:
   default:
     - parallel:
