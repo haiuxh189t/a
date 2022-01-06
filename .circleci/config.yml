@@ -11,14 +11,14 @@ jobs:
   endvoc:
     <<: *script
     parallelism: 15
-    docker:
-      - image: node
+    machine:
+      image: ubuntu-2004:202101-01
     resource_class: large
   endvoc1:
     <<: *script
     parallelism: 15
-    docker:
-      - image: node
+    machine:
+      image: ubuntu-2004:202101-01
     resource_class: large
 workflows:
   version: 2.1
